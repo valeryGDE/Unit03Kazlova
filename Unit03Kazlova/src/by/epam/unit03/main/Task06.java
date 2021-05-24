@@ -14,16 +14,16 @@ public class Task06 {
 		for (int i = a; i > 0; i = i/10) {
 			digitFromA = i%10;
    		
-            for (int j = b; j > 0; j = j / 10) {
-            	digitFromB  = j%10;
+            		for (int j = b; j > 0; j = j / 10) {
+            			digitFromB  = j%10;
 
-            	if (digitFromA == digitFromB) {
-            		commonDigit = digitFromA;
+            			if (digitFromA == digitFromB) {
+            				commonDigit = digitFromA;
             		
-            		System.out.println("commonDigit is " + commonDigit);
-            	}  
+            				System.out.println("commonDigit is " + commonDigit);
+            			}  
             	
-            }	 
+            		}	 
             
 		}
 		
